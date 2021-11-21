@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Chewy&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: #c3e1e6;
+    background: url(pexels-adrien-olichon-2387819.jpg);
+}
+.head
+{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1{
+    font-family: 'Chewy', cursive;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+span{
+    font-size: 1.2em;
+    color: #c3e1e6;
+}
+.abstract{
+    margin-top: 50px;
+    display: inline-block;
+    
+    text-align: center;
+    /* padding: 20px; */
+}
+.abstract img{
+    padding: 20px;
+    /* box-shadow: 1px 10px 10px 2px rgb(197, 51, 51); */
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 1.5s all;
+    overflow: hidden;
+}
+.nature{
+    margin-top: 50px;
+    display: inline-block;
+
+    text-align: center;
+    /* padding: 20px; */
+}
+.nature img{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 2s all;
+    overflow: hidden;
+}
+.Office{
+    margin-top: 50px;
+    display: inline-block;
+    text-align: center;
+    /* padding: 20px; */
+    
+}
+.Office img{
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 1s all;
+    overflow: hidden;
+}
+h3{
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: #ac88db;
+    margin-bottom: 30px;
+}
+.abstract img:hover
+{
+    transform: scale(1.1);
+    width:400px;
+    height: 400px;
+
+}
+.nature img:hover
+{
+    transform: scale(1.1);
+    width:400px;
+    height: 400px;
+
+}
+.Office img:hover
+{
+    transform: scale(1.1);
+    width:400px;
+    height: 400px;
+
+}
